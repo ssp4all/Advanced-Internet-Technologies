@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+        <header>
+            <h1>Resume Builder</h1>
+            <p>A responsive website without bootstrap</p>           
+            <br>
+            <div class="topnav" id="myTopnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+        </header>
+        
+        <section id="four_columns">
+            <article class="img-item">
+                <figure>                          
+					<img src="img/1.jpg" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some name
+                        </strong>
+                        Als es die ersten Hügel des Kursivgebirges erklommen hatte
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+                <figure>
+                       <img src="img/2.jpg" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>
+                            Photo by: Some name
+                        </strong>
+                        warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+                <figure>
+                        <img src="img/3.jpg" alt="Some alt text"/>                   
+                    <figcaption>
+                        <strong>
+                            Photo by: Some name
+                        </strong>
+                        die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+            	<figure>
+                        <img src="img/4.jpg" alt="Some alt text"/>                  
+                    <figcaption>
+                        <strong>
+                            Photo by: Some name
+                        </strong>
+                        Wehmütig lief ihm eine rhetorische Frage über die Wange.
+                    </figcaption>
+                </figure>
+            </article>
+            <br class="clear"/>
+        </section>
+        <br><br>
+        <footer>
+        	
+				<center>
+					Thank you for watching
+				</center>
+			
+        </footer>
+	</body>
+</html>
