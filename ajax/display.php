@@ -3,7 +3,6 @@
 include("connection.php");
 mysqli_select_db($con,"samples");
 $result=mysqli_query($con,"select * from student");
-
 echo "<table border='1'>
 <th>
 <td><b>RollNo</b></td>
