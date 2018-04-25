@@ -1,0 +1,23 @@
+List of programs can come for final practical exam
+
+Responsive Web Design Simple Page with respect to screen size using media query. (Changing horizontal menu to vertical or hamburger icon etc…)
+Rotating and scaling image with CSS3.
+Responsive Web Design Simple Page with respect to screen size using grid system. ( changing horizontal menu to vertical etc...)	
+Demonstrate CSS3  Rounded Corner using DIVs.
+Demonstration of different Pseudo Selectors in CSS3.
+Apply transition effects on the colour of an object.
+Create a web page using HTML5 semantics
+Demonstrate gradient.
+Create form to Accept Order using HTML5 form features. 
+Demonstrate AJAX
+Skewing and translating image with CSS3.
+Demonstrate CSS Border properties
+Animate a circle to rectangle and then back to circle.
+Demonstrate css transformation
+Include audio and video in the web page and make it responsive.
+HTML5 page with images. When hover on any image it should zoom and come in the center. When hover out it should go to initial stage
+Responsive HTML table
+Create HTML5 page with button. Onclick of the button, an Ajax call should be made to a file and content of the file should be displayed on the same page below the button.
+Create one page responsive page with header, two columns and footer. On mobile view, all the elements of the page should stack vertically.
+
+

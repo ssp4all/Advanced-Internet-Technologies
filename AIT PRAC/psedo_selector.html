@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TITLE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="rwd_media.css">
+	<style type="text/css">
+	/**************pseudo class***************/
+		/* unvisited link */
+		a:link {
+		    color: red;
+		}
+
+		/* visited link */
+		a:visited {
+		    color: green;
+		}
+
+		/* mouse over link */
+		a:hover {
+		    color: hotpink;
+		}
+
+		/* selected link */
+		a:active {
+		    color: blue;
+		}
+		/*Selects every <p> elements that is the first child of its parent*/
+		p:first-child {
+		    color: blue;
+		} 
+		/*Selects every <p> element that is the second child of its parent, counting from the last child*/
+		p:nth-last-child(2){
+			color:red;
+		}
+		/*Selects every <p> element that is the last <p> element of its parent*/
+		p:last-of-type{
+			color: green;
+		}
+	/************************pseudo elements***************************/
+		p::first-letter {
+		    font-size: xx-large;
+		}
+		p:first-child::before {
+		    content: "Before ";
+		}
+
+		p:last-child::after {
+		    content: " After";
+		}
+	</style>
+</head>
+<body class="body">
+	<header class="header"><h2>HEADER</h2></header>
+	<div class="container">
+
+		<aside class="aside"><a href="#aside">ASIDE</a></aside>
+		<article class="article">
+			<p>This is paragraph 1</p>
+			<p>This is paragraph 2</p>
+			<p>This is paragraph 3</p>
+			<p>This is paragraph 4</p>
+		</article>
+	</div>
+	
+	<footer class="footer"><h2>FOOTER</h2></footer>
+
+</body>
+</html>

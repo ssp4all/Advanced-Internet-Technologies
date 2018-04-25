@@ -1,0 +1,11 @@
+.image {
+    width: 50%;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.scale {
+    transform: scale(2, 1);
+}

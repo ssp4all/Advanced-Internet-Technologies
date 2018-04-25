@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TITLE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="rwd_media.css">
+	<style type="text/css">
+		img{
+			width:100px;
+			height: 100px;
+			margin:10px;
+		}
+		img.a{
+		    background-color: yellow;
+		    -ms-transform: rotate(20deg); /* IE 9 */
+		    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+		    transform: rotate(20deg);
+		}
+
+		img.b {
+		    background-color:yellow;
+		    -ms-transform: skewY(20deg); /* IE 9 */
+		    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+		    transform: skewY(20deg);
+		}
+
+		img.c{
+		    background-color: yellow;
+		    -ms-transform: scaleY(1.5); /* IE 9 */
+		    -webkit-transform: scaleY(1.5); /* Safari 3-8 */
+		    transform: scaleY(1.5);
+		}
+	</style>
+</head>
+<body class="body">
+	<header class="header"><h2>HEADER</h2></header>
+	<div class="container">
+		<aside class="aside">ASIDE</aside>
+		<article class="article">
+			<br>
+			<br>
+			<img src="images.jpeg">
+			<img class="a" src="images.jpeg">
+			<img class="b" src="images.jpeg">
+			<img class="c" src="images.jpeg">
+		</article>
+	</div>
+	
+	<footer class="footer"><h2>FOOTER</h2></footer>
+
+</body>
+</html>

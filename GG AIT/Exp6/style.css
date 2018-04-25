@@ -1,0 +1,11 @@
+.object {
+    width: 150px;
+    height: 150px;
+    background: firebrick;
+    transition: background 0.5s ease-in;
+}
+
+.object:hover {
+    background: #103a90 !important;
+}
+

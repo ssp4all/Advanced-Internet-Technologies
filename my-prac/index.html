@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>practice before exam</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width ,initial-scale=1">
+    <script>
+        function myfunc() {
+            var x = document.getElementById("nav");
+            if (x.className === 'topnav')
+                x.className += ' responsive';
+            else
+                x.className = 'topnav';
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+    <div class="container">
+        <nav class="topnav" id="nav">
+            <a href="#">Home</a>
+            <a href="#">contact</a>
+            <a href="#">about</a>
+            <a href="javascipt:void(0);" style="font-size:17px;" class="icon" onclick="myfunc()">&#9776;</a>
+
+        </nav>
+        <aside>ASIDE</aside>
+        <article>ARTICLE
+            <!-- <div class="box"></div> -->
+            <!-- <div class="box" id="obj"></div>
+            <button onclick="changecolor('red')">Red</button>   -->
+            <div class="object" id="object"></div>
+            <button onclick="changeColor('firebrick')">Default</button>
+            <button onclick="changeColor('red')">Red</button>
+            <button onclick="changeColor('blue')">Blue</button>
+            <button onclick="changeColor('green')">Green</button>
+            <button onclick="changeColor('yellow')">Yellow</button>
+            <script>
+                let object = document.getElementById("object");
+                function changeColor(color) {
+                    object.style.background = color;
+                }
+            </script>
+            <div class="rec">Hover me</div>
+            
+            <div class="audio">
+                <audio src="1999.mp3" autoplay id="audioId">
+                </audio>
+                <!-- <div class="progress-bar">
+                    <progress id="progress-bar" min="0" max="100" value="0"></progress>
+                </div> -->
+                <div class="controls">
+                    <button onclick="pause()">Pause</button>
+                    <button onclick="play()">Play</button>
+                    <!-- <button onclick="restart()">Restart</button> -->
+                </div>
+                <script>
+                    let audio = document.getElementById("audioId");
+
+                    function pause() {
+                            audio.pause();
+                        }
+
+                        function play() {
+                            audio.play();
+                        }
+                </script>
+            </div>
+
+            <video controls>
+                <source src="movie.mp4" type="video/mp4">
+            </video>
+        </article>
+    </div>
+    <footer>
+        <h3>footer</h3>
+    </footer>
+</body>
+
+</html>

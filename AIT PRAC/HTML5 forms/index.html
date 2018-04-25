@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create form to Accept Order using HTML5 form features</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Order your very own meth today!</h1>
+    <form action="">
+        <div class="input-row">
+            <label for="product">Product</label>
+            <input list="product" name="product" required>
+            <datalist id="product">
+                <option value="product1">
+                <option value="product2">
+                <option value="product3">
+            </datalist>
+        </div>
+        <div class="input-row">
+            <label for="date">Date</label>
+            <input type="date" name="date" required min="2000-01-02">
+        </div>
+        <div class="input-row">
+            <label for="time">Time</label>
+            <input type="time" name="time" required>
+        </div>
+        <div class="input-row">
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="input-row">
+            <label for="quantity">Quantity</label>
+            <input type="range" name="quantity" min="0" max="5" required oninput="quantity_op.value = quantity.value">
+            <output name="quantity_op" id="quantity_op">1</output>
+        </div>
+        <div class="input-row">
+            <label for="quantity2">Quantity2</label>
+            <input type="number" name="quantity2" min="1" max="10">
+        </div>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

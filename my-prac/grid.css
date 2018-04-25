@@ -1,0 +1,56 @@
+.container{
+    margin :0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header,footer{
+    padding :10px 0;
+    margin: 10px 10px 40px 10px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    display: flex;
+    align-items: baseline;
+}
+main{
+    display: flex;
+}
+aside{
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border: 2px solid blue;
+}
+aside ul{
+    padding: 0.25rem 0;
+}
+aside ul {
+    list-style-type: none;
+}
+article{
+    margin-top: 10px;
+    padding: 20px 20px ;
+    flex: 3;
+    border: 2px solid blue;
+    margin-left: 15px;
+}
+section h2{
+    font-size: 30px;
+}
+@media screen and (max-width:600px){
+    main{
+        flex-direction: column;
+    }
+    article,aside{
+        margin-top: 30px;
+        
+
+    }
+}

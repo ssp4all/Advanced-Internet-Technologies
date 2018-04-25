@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TITLE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="rwd_media.css">
+	<style type="text/css">
+	.a,.b,.c,.d,.e{
+		float:left;
+		margin: 10px;
+	}
+	.a{
+		width:300px;
+		height: 100px;
+		background: linear-gradient(to right, red , yellow);
+	}
+	.b{
+		width:300px;
+		height: 100px;
+		 background: linear-gradient(-90deg, red, yellow);
+	}
+	.c{
+		width:300px;
+		height: 100px;
+		background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+	}
+	.d{
+		width:300px;
+		height: 100px;
+		background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	}
+	.e{
+		width:300px;
+		height: 100px;
+		background: repeating-linear-gradient(red, yellow 10%, green 20%);
+	}
+	.f{
+		clear:both;
+		margin: 10px;
+		width:200px;
+		height: 200px;
+		background: radial-gradient(circle, red, yellow, green);
+	}
+	</style>
+</head>
+<body class="body">
+	<header class="header"><h2>HEADER</h2></header>
+	<div class="container">
+
+		<aside class="aside">ASIDE</aside>
+		<article class="article">
+			<div class="a"></div>
+			<div class="b"></div>
+			<div class="c"></div>
+			<div class="d"></div>
+			<div class="e"></div>
+			<div class="f"></div>
+		</article>
+	</div>
+	
+	<footer class="footer"><h2>FOOTER</h2></footer>
+
+</body>
+</html>

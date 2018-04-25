@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TITLE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="rwd_media.css">
+	<style type="text/css">
+	.a{
+		width:100px;
+		height: 100px;
+		background-color: red;
+		-webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    	transition: background-color 2s;
+	}
+	.a:hover{
+		background-color: yellow;
+	}
+	.b {
+	    width: 100px;
+	    height: 100px;
+	    background: red;
+	    -webkit-transition: width 3s; /* Safari */
+	    -webkit-transition-delay: 1s; /* Safari */
+	    transition: width 3s;
+	    transition-delay: 1s;
+	}
+	.b:hover {
+	    width: 300px;
+	}
+	</style>
+</head>
+<body class="body">
+	<header class="header"><h2>HEADER</h2></header>
+	<div class="container">
+
+		<aside class="aside">ASIDE</aside>
+		<article class="article">
+			<div class="a"></div>
+			<br>
+			<div class="b"></div>
+		</article>
+	</div>
+	
+	<footer class="footer"><h2>FOOTER</h2></footer>
+
+</body>
+</html>

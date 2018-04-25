@@ -1,0 +1,29 @@
+.rect-circle {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background: #0c2379;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75px;
+}
+
+.rect-circle:hover{
+    animation: rect-circle-transform 1s infinite;
+}
+
+@keyframes rect-circle-transform {
+    0% {
+        border-radius: 75px;
+    }
+
+    50% {
+        border-radius: 0px;
+        width: 200px;
+    }
+
+    100% {
+        border-radius: 75px;
+    }
+}

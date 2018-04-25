@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table tr:nth-of-type(2n) {
+    background-color: #bbbab9;
+}
+
+table tr:first-child {
+    background-color: #4840ab;
+    color: white;
+}
+
+a:link {
+    color: crimson;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}

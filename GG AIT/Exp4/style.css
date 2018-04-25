@@ -1,0 +1,22 @@
+.object-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.object {
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
+}
+
+.object1 {
+    border-radius: 65px;
+}
+
+.object2 {
+    border-radius: 65px 10px;
+}
+
+.object3 {
+    border-radius: 65px 10px 25px 15px;
+}
